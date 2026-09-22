@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="SAHARA Labs">
+  <title>SAHARA Labs</title>
+  <rect width="512" height="512" rx="96" fill="#1f1f1f"/>
+  <path d="M330 96 H168 A72 72 0 0 0 96 168 V330" fill="none" stroke="#ffc933" stroke-width="42" stroke-linecap="round" opacity=".55"/>
+  <path d="M182 416 H344 A72 72 0 0 0 416 344 V182" fill="none" stroke="#ffc933" stroke-width="42" stroke-linecap="round" opacity=".55"/>
+  <rect x="198" y="198" width="116" height="116" rx="24" fill="#ffc933"/>
+</svg>

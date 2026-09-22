@@ -5,11 +5,11 @@
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "background_color": "#041022",
-  "theme_color": "#07162f",
+  "background_color": "#0b1f33",
+  "theme_color": "#0b1f33",
   "icons": [
     {
-      "src": "/assets/mark.svg",
+      "src": "/assets/app-icon-labs.svg",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any maskable"

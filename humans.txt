@@ -1,0 +1,10 @@
+/* TEAM */
+Product owner: Saroj Rijal
+Organization: SAHARA LABS
+Location: Nepal
+GitHub: https://github.com/SAHARA-Labs-Nepal
+
+/* SITE */
+Purpose: Official SAHARA LABS company profile
+Language: English
+Standards: Responsive, accessible, dependency-free static HTML/CSS/JS

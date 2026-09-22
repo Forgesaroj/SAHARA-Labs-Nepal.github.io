@@ -1,0 +1,29 @@
+# SAHARA LABS
+
+SAHARA LABS is a Nepal-based product studio led by Saroj Rijal.
+
+Official website: https://sahara-labs-nepal.github.io/
+GitHub organization: https://github.com/SAHARA-Labs-Nepal
+
+## Flagship
+
+SAHARA CORE is an original, fully web-based accounting, inventory, and business operating system in active development. Its design targets desktop-class keyboard workflows, double-entry accounting discipline, inventory and bill-wise operations, multi-company controls, auditability, Nepal-ready business requirements, and an extensible multi-country architecture.
+
+SAHARA CORE is not publicly described as launched or production-ready without release evidence.
+
+## Other initiatives
+
+- SAHARA QR DINE: hospitality workflow software in active development.
+- Business workflow tools: reconciliation, confirmations, SOP execution, stock checks, follow-up, and owner-control research and development.
+
+## Engineering principles
+
+- Accounting correctness before cosmetic polish.
+- Traceable and explainable business history.
+- Keyboard efficiency and dense professional workflows.
+- Trusted server-side validation, company isolation, and role-based access.
+- Evidence-based product status.
+
+## Technology
+
+TypeScript, Bun, Elysia, React, Vite, TanStack Router, PostgreSQL 17, Drizzle ORM, Better Auth, pg-boss, Pino, and React PDF.

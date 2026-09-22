@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sahara-labs-nepal.github.io/sitemap.xml

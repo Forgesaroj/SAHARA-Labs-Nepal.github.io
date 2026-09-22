@@ -115,6 +115,8 @@ h2 { color:var(--navy); font-size:clamp(40px,4.8vw,62px); font-weight:750; lette
 .buyer-path small { color:#7891aa; }
 .buyer-path p { color:#9eb1c4; }
 .buyer-path b { color:#71889e; }
+.buyer-section .button-gold,.contact .button-gold { color:var(--navy); background:#fff; box-shadow:0 12px 30px rgba(0,0,0,.18); }
+.buyer-section .button-gold:hover,.contact .button-gold:hover { color:var(--navy); background:#edf3ff; }
 
 .decision-section { background:linear-gradient(135deg,#edf3ff,#f8faff 65%,#fff9e9); }
 .decision-lede { color:var(--slate); font-size:16px; }

@@ -2,8 +2,8 @@
 
 :root { --navy:#0b1f33; --blue:#0f4f8f; --gold:#ffc933; --ink:#15283a; --slate:#526577; --muted:#8290a0; --mist:#f2f5f8; --line:#dbe3ea; --display:"Bricolage Grotesque","Segoe UI",sans-serif; --sans:"IBM Plex Sans","Segoe UI",sans-serif; --mono:"IBM Plex Mono",Consolas,monospace; --shell:min(1240px,calc(100% - 48px)); }
 * { box-sizing:border-box; }
-html { overflow-x:hidden; scroll-behavior:smooth; scroll-padding-top:96px; }
-body { min-width:320px; margin:0; overflow-x:hidden; color:var(--ink); background:#fff; font-family:var(--sans); line-height:1.6; }
+html { scroll-behavior:smooth; scroll-padding-top:96px; }
+body { min-width:320px; margin:0; overflow-x:clip; color:var(--ink); background:#fff; font-family:var(--sans); line-height:1.6; }
 a { color:inherit; }
 img { display:block; max-width:100%; }
 .shell { width:var(--shell); margin-inline:auto; }
@@ -19,8 +19,8 @@ img { display:block; max-width:100%; }
 .doc-label { flex:1; padding-left:28px; border-left:1px solid rgba(220,234,251,.18); color:#829ab1; font:500 9px/1 var(--mono); letter-spacing:.15em; }
 .header-action { padding:10px 15px; color:var(--navy); background:var(--gold); border-radius:6px; text-decoration:none; font-size:13px; font-weight:700; }
 .doc-shell { display:grid; grid-template-columns:300px minmax(0,1fr); padding-top:76px; }
-.sidebar { border-right:1px solid var(--line); background:#f7f9fb; }
-.sidebar-inner { position:sticky; top:76px; padding:28px 28px 32px 34px; }
+.sidebar { position:sticky; top:76px; align-self:start; height:calc(100vh - 76px); border-right:1px solid var(--line); background:#f7f9fb; }
+.sidebar-inner { padding:28px 28px 32px 34px; }
 .back-link { color:var(--blue); font-size:12px; font-weight:600; text-underline-offset:4px; }
 .sidebar nav { display:flex; flex-direction:column; margin-top:22px; }
 .sidebar nav strong { margin:18px 0 6px; color:#8b99a7; font:600 9px/1 var(--mono); letter-spacing:.15em; }
@@ -144,7 +144,7 @@ h1 em { color:var(--blue); font-style:normal; }
   .doc-label { display:none; }
   .header-action { margin-left:auto; padding:9px 11px; font-size:11px; }
   .doc-shell { display:block; padding-top:66px; }
-  .sidebar { position:sticky; top:66px; z-index:20; overflow-x:auto; overflow-y:hidden; border-right:0; border-bottom:1px solid var(--line); }
+  .sidebar { position:sticky; top:66px; z-index:20; width:100%; height:auto; overflow-x:auto; overflow-y:hidden; border-right:0; border-bottom:1px solid var(--line); }
   .sidebar-inner { position:static; display:flex; align-items:center; gap:16px; width:max-content; height:auto; padding:10px 16px; }
   .sidebar-inner nav { display:flex; flex-direction:row; gap:17px; margin:0; }
   .sidebar nav strong,.sidebar-note,.back-link { display:none; }
